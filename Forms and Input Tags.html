@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+        <input type="text" name="myName" id="name"> 
+       </div>
+       <label for="role"> Role</label> 
+       <div>
+        <input type="text" name=""myRole id="role">
+       </div>
+       <label for="email"> Email</label>
+       <div>
+        <input type="text" name="myEmail" id="email">
+       </div>
+       <label for="date">Date</label>
+       <div>
+        <input type="date" name="myDate" id="date">
+       </div>
+       <label for="bonus"> Bonus</label>
+       <div>
+        <input type="number" name="myBonus" id="bonus">
+       </div>
+       <label for="eligibility">Are you Eligible</label>
+       <div>
+        <input type="checkbox" name="my eligibility" checked id="eligibility">
+       </div>
+       <label for="gender"> Gender</label>
+       <div>
+        Male<input type="radio" name="myGender"> Female <input type="radio" name="myGender" id="gender"> 
+           <!-- Here if you give same name to all gender types which is "myGender", you can select only one option. -->
+        </div>
+        <label for="About yourself"> Write about yorself</label>
+        <div>
+        <textarea name="myText" cols="30" rows="10"></textarea id="About yoreself">  
+        </div>
+        <label for="Cars"> Choose a Car</label>
+        <select name="myCar" id="Car">
+            <option value="Swt">SWIFT</option>
+            <option value="Ind">INDICA</option>
+            <option value="tata">TATA</option>
+            <option value="Mer">Mercedes</option>
+        </select>
+        <div>
+         <input type="Submit" value="Submit now">
+         <input type="Reset" value="Reset Now">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
